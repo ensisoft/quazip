@@ -60,9 +60,13 @@ extern "C" {
 #include "ioapi.h"
 #endif
 
+// where the f does this crap come from now??
+#undef HAVE_BZIP2
+
 #ifdef HAVE_BZIP2
 #include "bzlib.h"
 #endif
+
 
 #define Z_BZIP2ED 12
 
